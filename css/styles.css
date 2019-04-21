@@ -29,7 +29,15 @@ body {
  * This section should contain at least the
  * following elements: header, nav, ul, li, a, div.
  */
+#header{
+	width:100%;
+	position: fixed;
+	display: block;
+}
 
+#NomTante {
+	color: antiquewhite;
+}
 /*==============================================*/
 /* Articles                                     */
 /*==============================================*/

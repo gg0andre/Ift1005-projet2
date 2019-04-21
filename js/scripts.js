@@ -13,6 +13,7 @@
 var dynamicActions = function(data) {
   $(document).ready(function() {
     updateDocumentTitle();
+    updateNom();
     creerArticles();
     // function3()...
     // function4()...
@@ -31,6 +32,11 @@ var updateDocumentTitle = function() {
   // Some code...
   document.title = data.documentTitle;
 };
+
+//changer le nom de notre tante
+var updateNom = function(){
+  document.getElementById("NomTante").innerHTML = data.firstName +" "+ data.lastName;
+}
 
 //creer les articles
 var creerArticles = function() {
