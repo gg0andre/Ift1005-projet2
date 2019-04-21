@@ -63,9 +63,13 @@ body {
 	padding-bottom: 25px;
 	text-align: center;
 }
-#article h1, h2, h3, h4, h5, .content{
-	padding-top: 5px;
+#article h2, h3, h4, h5, .content{
+	padding-top: 10px;
 	padding-bottom: 5px;
+}
+h1{
+	font-size: 5vw;
+	font-weight: 900px;
 }
 #article img {
 	width: 75%;
@@ -75,6 +79,9 @@ body {
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
+.image2{
+	padding-top: 25px;
+}
 .article {
 	height: 525px;
 	background-color: antiquewhite;
@@ -83,8 +90,8 @@ body {
 	border-radius: 15px;
 }
 .content, h5 {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 .content {
 	text-align: justify;
