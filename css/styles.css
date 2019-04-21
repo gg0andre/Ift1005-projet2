@@ -38,6 +38,13 @@ body {
 #NomTante {
 	color: antiquewhite;
 }
+
+#Nav-gauche{
+	float: left;
+}
+#Nav-droite{
+	float: right;
+}
 /*==============================================*/
 /* Articles                                     */
 /*==============================================*/
