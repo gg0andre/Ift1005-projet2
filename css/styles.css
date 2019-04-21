@@ -33,6 +33,7 @@ body {
 	width:100%;
 	position: fixed;
 	display: block;
+	padding-bottom: -10px;
 }
 
 #NomTante {
@@ -45,10 +46,10 @@ body {
 }
 #Nav-droite{
 	float: right;
-	padding-left: 50px;
+	align-content: flex-end;
+	padding-left: 100px;
 }
-li{	color: #0000A0;}
-li:hover {color: #FF0000;}
+
 /*==============================================*/
 /* Articles                                     */
 /*==============================================*/

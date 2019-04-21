@@ -62,51 +62,68 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="collapse_target">
-        <div id="Nav-gauche">
-          <svg width="110" heigth="60">
-            <circle cx="60" cy="60" r="45" stroke="white" stroke-width="4" fill="#0000A0"></circle>
-          </svg>
-          <span class="navbar-text" id="NomTante">Text</span>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto mr-auto">
+            <div class="collapse navbar-collapse" id="collapse_target">
+              <div id="Nav-gauche">
+                <svg width="110" heigth="60">
+                  <circle cx="60" cy="60" r="45" stroke="white" stroke-width="4" fill="#0000A0"></circle>
+                </svg>
+                <span class="navbar-text" id="NomTante">Text</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto ml-auto align-self-center">
+            <ul class="navbar-nav" id="Nav-droite">
+              <li class="nav-item dropdown" >
+                <a class="nav-link alert-link" href="">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link alert-link" href="">Recettes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link alert-link" href="">Contact</a>
+              </li>                   
+            </ul>
+          </div>
         </div>
-        <ul class="navbar-nav" id="Nav-droite">
-          <li class="nav-item dropdown" >
-            <a class="nav-link" href="">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Recettes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
-          </li>                   
-        </ul>
       </div>
     </nav>
   </header>
 
   <!--  Article  -->
   <section id="article">
-    <h1>Accueil</h1>
-
-    <article id="article0">
-      <img src="./assets/brooke-lark-229136-unsplash.jpg">
-      <h2 id="title0">Titre article1</h2>
-      <h5 id="subtitle0"></h5>
-      <div id="content0"></div>
-    </article>
-    <article id="article1">
-      <h2 id="title1">Titre article1</h2>
-      <h5 id="subtitle1"></h5>
-      <div id="content1"></div>
-      <!--https://pixabay.com/photos/vegetarian-korean-food-tofu-cooking-1141242/-->
-      <img src="./assets/vegetarian-1141242_1920.jpg">
-    </article>
-    <article id="article2">
-      <h2 id="title2">Titre article1</h2>
-      <h5 id="subtitle2"></h5>
-      <div id="content2"></div>
-      <img src="./assets/culinary-arts-cooking-medal-2-diamond-cut-13.gif">
-    </article>
+    <div class="container">
+      <h1>Accueil</h1>
+      <div class="row align-items-center">
+        <div class="col">
+          <article id="article0">
+            <img src="./assets/brooke-lark-229136-unsplash.jpg">
+            <h2 id="title0">Titre article1</h2>
+            <h5 id="subtitle0"></h5>
+            <div id="content0"></div>
+          </article>
+        </div>
+        <div class="col">
+          <article id="article1">
+            <h2 id="title1">Titre article1</h2>
+            <h5 id="subtitle1"></h5>
+            <div id="content1"></div>
+            <!--https://pixabay.com/photos/vegetarian-korean-food-tofu-cooking-1141242/-->
+            <img src="./assets/vegetarian-1141242_1920.jpg">
+          </article>
+        </div>
+        <div class="col">
+          <article id="article2">
+            <h2 id="title2">Titre article1</h2>
+            <h5 id="subtitle2"></h5>
+            <div id="content2"></div>
+            <img src="./assets/culinary-arts-cooking-medal-2-diamond-cut-13.gif">
+          </article>
+        </div>
+      </div>
+    </div>
   </section>
     
   </body>
