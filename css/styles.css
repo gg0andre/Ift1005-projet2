@@ -47,7 +47,7 @@ body {
 #Nav-droite{
 	float: right;
 	align-content: flex-end;
-	padding-left: 100px;
+	padding-left: 300px;
 }
 
 /*==============================================*/
@@ -58,7 +58,38 @@ body {
  * This section should contain at least the
  * following elements: h1, h2, section, article.
  */
+#article {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+#article h1, h2, h3, h4, h5, .content{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#article img {
+	width: 75%;
+	border-radius: 20px;
+}
+.image {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.article {
+	height: 525px;
+	background-color: antiquewhite;
 
+	border: 1px outset;
+	border-radius: 15px;
+}
+.content, h5 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.content {
+	text-align: justify;
+	font-size: 0.8em;
+}
 /*==============================================*/
 /* Recipes                                      */
 /*==============================================*/
