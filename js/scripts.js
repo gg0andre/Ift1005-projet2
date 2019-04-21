@@ -13,7 +13,7 @@
 var dynamicActions = function(data) {
   $(document).ready(function() {
     updateDocumentTitle();
-    // function2()...
+    creerArticles();
     // function3()...
     // function4()...
     // etc.
@@ -29,5 +29,14 @@ var dynamicActions = function(data) {
  */
 var updateDocumentTitle = function() {
   // Some code...
-  document.title = "Lilou";
+  document.title = data.documentTitle;
+};
+
+//creer les articles
+var creerArticles = function() {
+  for (var i=0; i<3;i++) {
+    document.getElementById("content"+i).innerHTML = data.articles[i].content;
+    document.getElementById("subtitle"+i).innerHTML = data.articles[i].subtitle;
+    document.getElementById("title"+i).innerHTML = data.articles[i].title;
+  }
 };
